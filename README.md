@@ -48,3 +48,106 @@ Dalam era di mana teknologi semakin berperan dalam berbagai aspek kehidupan, Moj
    | SCL    | A5          | SCL               |
    | VCC    | VCC         | Potensial Positif |
    | GND    | GND         | Potensial Negatif |
+
+
+
+
+
+## Panduan Pengunduhan Kode Moji dari GitHub
+
+### Prasyarat
+
+- Komputer dengan akses internet.
+- Git telah terinstal di komputer Anda (jika ingin melakukan cloning).
+
+### Langkah-langkah:
+
+1. **Buka Repositori GitHub**
+   
+   - Buka repositori GitHub tempat Anda telah memposting kode Moji.
+
+2. **Unduh Kode (Download ZIP)**
+   
+   1. Di repositori GitHub, klik tombol "Code" di bagian kanan atas.
+   2. Pilih "Download ZIP" untuk mengunduh kode dalam bentuk file ZIP.
+   3. Ekstrak file ZIP di komputer Anda.
+
+3. **Clone Repositori (Opsional)**
+   
+   1. Buka terminal atau command prompt di komputer Anda.
+   2. Pindahkan ke direktori tempat Anda ingin menyimpan repositori Moji dengan perintah `cd nama_direktori`.
+   3. Jalankan perintah `git clone URL_repositori` untuk mengklon repositori Moji ke direktori tersebut.
+   4. 
+
+## Panduan Penggunaan Kode Moji di Arduino IDE
+
+### Prasyarat
+
+- Perangkat keras Moji yang lengkap dengan komponen yang dijelaskan sebelumnya.
+- Komputer dengan akses internet.
+- Arduino IDE terinstal di komputer Anda.
+
+### Langkah-langkah:
+
+1. **Buka Arduino IDE**
+   
+   1. Buka Arduino IDE di komputer Anda.
+
+2. **Salin dan Tempelkan Kode**
+   
+   1. Salin kode Moji yang telah diunduh atau diklon ke dalam area kode (sketch) di Arduino IDE.
+
+3. **Konfigurasi Pin**
+   
+   1. Pastikan bahwa Anda telah mengkonfigurasi nomor pin dengan benar sesuai dengan koneksi perangkat Moji di kode Anda.
+
+4. **Pengaturan Library**
+   
+   1. Pastikan Anda telah menginstal pustaka yang diperlukan melalui "Library Manager" di Arduino IDE.
+   2. (cara lebih mudah) copy library dari folder "Lib" ke library arduino anda, contoh: C:\Users\<namuser>\Documents\Arduino\libraries
+
+5. **Unggah Kode**
+   
+   1. Hubungkan perangkat Moji ke komputer melalui kabel USB.
+   2. Pilih papan Arduino yang sesuai dan port serial yang digunakan pada menu "Tools".
+   3. Klik tombol unggah (upload) di Arduino IDE untuk mengunggah kode ke perangkat Moji.
+
+6. **Monitor Serial**
+   
+   1. Buka Serial Monitor di Arduino IDE untuk melihat output dan pesan dari perangkat Moji.
+
+## Panduan Penggunaan Kode Moji di PlatformIO
+
+### Prasyarat
+
+- Perangkat keras Moji yang lengkap dengan komponen yang dijelaskan sebelumnya.
+- Komputer dengan akses internet.
+- PlatformIO terinstal di komputer Anda.
+
+### Langkah-langkah:
+
+1. **Buka atau Buat Proyek**
+   
+   1. Buka PlatformIO IDE.
+   2. Buka proyek yang ada atau buat proyek baru dengan pilihan papan Arduino yang sesuai.
+
+2. **Salin dan Tempelkan Kode**
+   
+   1. Salin kode Moji dan tempelkan ke dalam file `.cpp` dalam direktori proyek.
+
+3. **Konfigurasi Pin**
+   
+   1. Pastikan bahwa Anda telah mengkonfigurasi nomor pin dengan benar sesuai dengan koneksi perangkat Moji di kode Anda.
+
+4. **Pengaturan Library**
+   
+   1. Pastikan Anda telah menambahkan pustaka yang diperlukan ke dalam `platformio.ini`.
+
+5. **Unggah Kode**
+   
+   1. Hubungkan perangkat Moji ke komputer melalui kabel USB.
+   2. Klik tombol unggah (upload) di PlatformIO IDE untuk mengunggah kode ke perangkat Moji.
+
+6. **Monitor Serial**
+   
+   1. Buka Serial Monitor di PlatformIO IDE untuk melihat output dan pesan dari perangkat Moji.
